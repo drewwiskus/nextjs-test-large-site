@@ -19,7 +19,7 @@ class ClonableRoute extends React.Component {
           **ROUTES**
         </div>
         {imageSize.map(size => {
-          return <Image src="**IMAGE**" alt="" width={size} height={size} objectFit={'contain'} />
+          return <Image src="/02.JPG" alt="" width={size} height={size} objectFit={'contain'} />
         })}
       </div>
     )

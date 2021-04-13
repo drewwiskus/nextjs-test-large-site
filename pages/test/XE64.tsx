@@ -580,7 +580,6 @@ class ClonableRoute extends React.Component {
 <Link href="/test/X65">X65</Link>|
 <Link href="/test/X66">X66</Link>|
 <Link href="/test/X01">X01</Link>|
-<Link href="/test/X02">X02</Link>|
 <Link href="/test/X03">X03</Link>|
 <Link href="/test/X04">X04</Link>|
 <Link href="/test/X05">X05</Link>|
@@ -1274,7 +1273,6 @@ class ClonableRoute extends React.Component {
 <Link href="/test/XH65">XH65</Link>|
 <Link href="/test/XH66">XH66</Link>|
 <Link href="/test/XI01">XI01</Link>|
-<Link href="/test/XI02">XI02</Link>|
 <Link href="/test/XI03">XI03</Link>|
 <Link href="/test/XI04">XI04</Link>|
 <Link href="/test/XI05">XI05</Link>|
@@ -1407,7 +1405,7 @@ class ClonableRoute extends React.Component {
 
         </div>
         {imageSize.map(size => {
-          return <Image src="/images/E/64.JPG" alt="" width={size} height={size} objectFit={'contain'} />
+          return <Image src="/02.JPG" alt="" width={size} height={size} objectFit={'contain'} />
         })}
       </div>
     )
